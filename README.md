@@ -25,10 +25,3 @@ Run scheduled jobs with:
 ```shell
 earthly --ci +scheduled-ci
 ```
-
-#### TODO
-
-- [ ] Add more robust tests such as in https://github.com/jonhoo/rust-ci-conf/blob/main/.github/workflows/test.yml
-- [ ] Add safety checks like https://github.com/jonhoo/rust-ci-conf/blob/main/.github/workflows/safety.yml
-- [ ] Add nostd checks like in https://github.com/jonhoo/rust-ci-conf/blob/main/.github/workflows/nostd.yml
-- [ ] Consider removing the boilerplate hello world Cargo.{toml,lock} and src/
