@@ -10,7 +10,7 @@ partial to [Earthly](https://earthly.dev/) :).
 
 1. Install earthly: https://earthly.dev/get-earthly
 2. Fork/create template
-3. Set `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` Github environment secrets
+3. (Optional) Set `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` Github environment secrets if DockerHub starts rate-limiting your image pull requests
 
 #### Run Locally
 
